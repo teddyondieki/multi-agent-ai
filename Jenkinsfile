@@ -5,7 +5,7 @@ pipeline{
         SONAR_PROJECT_KEY = 'LLMOPS'
 		SONAR_SCANNER_HOME = tool 'Sonarqube'
         AWS_REGION = 'us-east-1'
-        ECR_REPO = 'multi-agent-ai'
+        ECR_REPO = '940138547304.dkr.ecr.eu-north-1.amazonaws.com/multi-agent-ai'
         IMAGE_TAG = 'latest'
 	}
 
